@@ -1,56 +1,31 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.weather-app {
   background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
-  border: 15px solid white;
-}
-.weatherApp {
   max-width: 600px;
-  margin: 20px auto;
-  border-radius: 20px;
+  margin: 30px auto;
+  padding: 25px;
+  border: 1px solid #dfdfdf;
 }
-.form-group {
-  border: 20px;
-  display: block;
-  margin: 10px 15px auto;
-  width: 500px;
-}
-.todays-icon {
-  display: block;
-  margin: 0 auto;
-  block-size: unset;
-  block-size: 200px;
-}
+
 h1 {
-  text-align: center;
-}
-h2 {
-  text-align: center;
-}
-button {
-  background: #60c3e6;
+  color: #03005c;
   display: block;
-  margin: 10px auto;
+  font-size: 24px;
+  font-weight: 100px;
+  line-height: 28px;
+  margin-bottom: 0;
 }
-.card {
-  max-width: 150px;
+
+ul {
+  margin: 0;
+  padding: 0;
 }
-.todays-weather {
-  list-style-type: none;
-  text-decoration: none;
-  text-align: left;
-  margin: -20px 10px 10px;
-}
-.today-temp {
-  font-weight: bold;
-  font-size: 20px;
-}
-.four-day-forecast {
+
+li {
   list-style: none;
-  text-decoration: none;
-  font-size: 10px;
-  text-align: center;
-  padding-left: 0%;
-}
-.daily-temp {
-  font-weight: bold;
-  font-size: 15px;
+  color: #03005c;
+  margin: 0;
+  font-size: 16px;
 }
