@@ -21,6 +21,8 @@ li {
   color: #03005c;
   margin: 0;
   font-size: 16px;
+}
+li:first-letter {
   text-transform: capitalize;
 }
 .weather-app {
