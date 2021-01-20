@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #03005c;
+  color: black;
   display: block;
   font-size: 24px;
   font-weight: 100px;
@@ -19,7 +19,7 @@ ul {
 
 li {
   list-style: none;
-  color: #03005c;
+  color: #48484a;
   margin: 0;
   font-size: 16px;
 }
@@ -30,7 +30,7 @@ li:first-letter {
   margin-top: 10px;
 }
 .weather-forecast h4 {
-  color: #03005c;
+  color: black;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -45,7 +45,7 @@ li:first-letter {
   width: 36px;
 }
 .weather-forecast li {
-  color: #03005c;
+  color: #48484a;
   text-align: center;
   margin: 0;
   font-size: 14px;
