@@ -26,6 +26,31 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
+.weather-forecast {
+  margin-top: 10px;
+}
+.weather-forecast h4 {
+  color: #03005c;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  height: 15px;
+  line-height: 15px;
+  padding-top: 7px;
+}
+.weather-forecast img {
+  display: block;
+  margin: 0 auto;
+  height: 36px;
+  width: 36px;
+}
+.weather-forecast li {
+  color: #03005c;
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+}
+
 .weather-app {
   background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
   max-width: 600px;
